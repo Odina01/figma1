@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  background-image: url("../pages/img1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+.hero .hero__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero .hero__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .hero__top .social-icons a {
+  margin-right: 10px;
+}
+.hero .hero__top .lang-btn {
+  border: 1px solid #ff00aa;
+  padding: 5px 10px;
+  color: #ff00aa;
+  text-decoration: none;
+  font-size: 12px;
+}
+.hero .hero__content {
+  text-align: center;
+}
+.hero .hero__content .logo {
+  width: 40px;
+  margin-bottom: 10px;
+}
+.hero .hero__content h1 {
+  font-size: 28px;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+.hero .hero__content p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hero .hero__content .scroll-indicator {
+  font-size: 30px;
+  margin-top: 30px;
+  animation: bounce 1.5s infinite;
+}
+
+.about {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.about .our-story {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.about .our-story span {
+  color: #aaa;
+  margin: 0 10px;
+}
+.about .our-story strong {
+  font-size: 20px;
+}
+
+.portfolio {
+  background-color: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+.portfolio .section-subtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.portfolio .section-subtitle span {
+  color: #888;
+  margin: 0 10px;
+}
+.portfolio .section-subtitle strong {
+  font-size: 22px;
+}
+.portfolio .portfolio__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.portfolio .portfolio__grid .portfolio__item {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.portfolio .portfolio__grid .portfolio__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+.portfolio .portfolio__grid .portfolio__item .portfolio__label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.portfolio .sumblite .btn-dark {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+.portfolio .sumblite .btn-dark:hover {
+  background: #555;
+}/*# sourceMappingURL=style.css.map */

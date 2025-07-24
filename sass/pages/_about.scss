@@ -1,0 +1,20 @@
+.about {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+
+  .our-story {
+    font-size: 16px;
+    text-transform: uppercase;
+
+    span {
+      color: #aaa;
+      margin: 0 10px;
+    }
+
+    strong {
+      font-size: 20px;
+    }
+  }
+}
